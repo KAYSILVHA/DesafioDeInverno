@@ -1,0 +1,171 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+
+header {
+  background-color: #4b93bf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+  font-family: Inter;
+  font-size: 30px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+}
+
+header img {
+  width: 120px;
+}
+
+
+header a:hover {
+  color: darkblue;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e4eef1;
+  color: #0F468C;
+  height: auto;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 18vw;
+}
+
+.imagem {
+  height: 70vh;
+  width: 40vw;
+}
+
+span{
+  text-decoration: underline #0F468C;
+
+}
+
+.two{
+  height: 35vh;
+  background-color: #4B93BF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #E4EEF1;
+  flex-wrap: wrap;
+  font-size: 24px;
+  font-family: Inter;
+  padding: 10px;
+}
+
+.p-two{
+  width: 40vw;
+}
+
+.section3{
+  display: flex;
+  justify-content: space-around;
+  background-color: #E4EEF1;
+  height: 40vh;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.imgUrso{
+  width: 20vw;
+  height: 200px;
+}
+
+.imgUrso:hover{
+  width: 22vw;
+  height: 220px;
+}
+
+footer {
+  background-color: #4B93BF;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+}
+
+footer .rede-social {
+  display: flex;
+  align-items: center;
+}
+
+footer .rede-social a {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .rede-social img {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+footer .penguin {
+  width: 50px;
+  height: 90px;
+  margin-left: 10px;
+}
+
+footer .footer-texto {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer .footer-texto p {
+  margin: 0;
+}
+
+
+footer a img:hover{
+  opacity: 0.5;
+}
+
+
+body img:hover{
+  filter: grayscale(100%);
+}
