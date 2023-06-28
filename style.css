@@ -58,6 +58,7 @@ section {
   height: auto;
   padding: 10px;
   flex-wrap: wrap;
+  font-size: 15px;
 }
 .texto {
   display: flex;
