@@ -11,7 +11,7 @@ header {
   background-color: #4b93bf;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -120,7 +120,7 @@ footer {
   padding: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: 'Inter', sans-serif;
 }
 
